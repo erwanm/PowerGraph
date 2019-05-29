@@ -386,8 +386,10 @@ endif()
 
 ExternalProject_Add(zookeeper
   PREFIX ${GraphLab_SOURCE_DIR}/deps/zookeeper
-  URL http://mirror.metrocast.net/apache/zookeeper/zookeeper-3.5.1-alpha/zookeeper-3.5.1-alpha.tar.gz
-  URL_MD5 d85f9751724d3f20f792803b61c4db24
+#  URL http://mirror.metrocast.net/apache/zookeeper/zookeeper-3.5.1-alpha/zookeeper-3.5.1-alpha.tar.gz
+#  URL_MD5 d85f9751724d3f20f792803b61c4db24
+   URL http://mirror.metrocast.net/apache/zookeeper/zookeeper-3.5.5/apache-zookeeper-3.5.5.tar.gz
+  URL_MD5 dd6b251c8c0051be008e27d397a9333b
   PATCH_COMMAND ${CMAKE_COMMAND} -E copy_directory ${GraphLab_SOURCE_DIR}/patches/zookeeper/ <SOURCE_DIR>
   BUILD_IN_SOURCE 1
   CONFIGURE_COMMAND ./configure --prefix=<INSTALL_DIR> --disable-shared
