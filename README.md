@@ -1,3 +1,10 @@
+
+# About this fork
+
+[This repository](https://github.com/erwanm/PowerGraph) is a fork from [this other repository](https://github.com/jakelever/PowerGraph) which is itself a fork from [the original PowerGraph repository](https://github.com/jegonzal/PowerGraph).  Neither the original repository nor the two forks are maintained. The purpose of this fork was to update the installation scripts: a few broken dependencies links were fixed in 2019, at the time this fork was the most up to date and it was possible to install the software sucessfully. In the future it's very likely that more parts are going to break.
+
+The below documentation is from [the original repository](https://github.com/jegonzal/PowerGraph).
+
 # GraphLab PowerGraph v2.2
 
 ## UPDATE: For a signficant evolution of this codebase, see GraphLab Create which is available for download at [turi.com](https://turi.com)
