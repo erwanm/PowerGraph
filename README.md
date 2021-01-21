@@ -1,7 +1,11 @@
 
 # About this fork
 
-[This repository](https://github.com/erwanm/PowerGraph) is a fork from [this other repository](https://github.com/jakelever/PowerGraph) which is itself a fork from [the original PowerGraph repository](https://github.com/jegonzal/PowerGraph).  Neither the original repository nor the two forks are maintained. The purpose of this fork was to update the installation scripts: a few broken dependencies links were fixed in 2019, at the time this fork was the most up to date and it was possible to install the software sucessfully. In the future it's very likely that more parts are going to break.
+[This repository](https://github.com/erwanm/PowerGraph) is a fork from [this other repository](https://github.com/jakelever/PowerGraph) which is itself a fork from [the original PowerGraph repository](https://github.com/jegonzal/PowerGraph).  
+
+- Neither the original repository nor the two forks are maintained. 
+- In this fork the installation scripts were updated: a few broken dependencies links were fixed in 2019, at the time this fork was the most up to date and it was possible to install the software sucessfully. In the future it's very likely that more parts are going to break.
+- The purpose of this fork was to run [Jake Lever's Knowledge Discovery system](https://github.com/jakelever/knowledgediscovery) (see also [my fork](https://github.com/erwanm/knowledgediscovery)), for which PowerGraph is a dependency.
 
 The below documentation is from [the original repository](https://github.com/jegonzal/PowerGraph).
 
